@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    margin-bottom: auto;
 }
 
 html, body{
@@ -24,3 +25,35 @@ h1{
     margin: 0px;
 }
 
+.projetos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    background-color: rgb(214, 212, 212);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+
+    text-decoration: none;
+    color: black;
+
+    border: 2px solid transparent;
+    transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    border-color: rgb(5, 29, 250);
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+}
+footer{
+    margin-top: 410px;
+    text-align: center;
+}
